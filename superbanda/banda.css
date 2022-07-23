@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+body {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  background: url(img/fundo.jpg) center;
+  font-family: "Ibarra Real Nova", serif;
+  background-position: center;
+  background-size: cover;
+  perspective: 700px;
+}
+
+main {
+  background: #6a686854;
+  padding: 5px 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.logo,
+.band-name,
+.headline {
+  margin: 0;
+  text-align: center;
+  font-size: 5.5em;
+}
+.concerts {
+  margin: 30px 0;
+}
+
+.concerts th,
+.concerts td {
+  padding: 15px;
+  background-color: aliceblue;
+  color: azure;
+}

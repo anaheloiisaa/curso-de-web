@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+/*---- Variaveis raiz----*/
+:root {
+  --color-primary: #b85ff3;
+  --color-danger: red;
+  --color-success: rgb(40, 231, 30);
+  --color-whiter: rgb(255, 255, 255);
+  --color-infor-dark: rgb(210, 174, 174);
+  --color-infor-light: rgb(230, 214, 214);
+  --color-dark: black;
+  --color-light: rgb(255, 255, 255);
+  --color-primary-variant: rgb(238, 176, 176);
+  --color-dark-variant: rgb(141, 107, 107);
+  --color-background: rgb(253, 253, 253);
+
+  --card-border-radiuns: 2rem;
+  --border-radiuns-1: 0.4rem;
+  --border-radiuns-2: 0.8rem;
+  --border-radiuns-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+
+  box-shadow: 0.2rem 3rem var(--color-light);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  appearance: none;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "bebas neue", cursive;
+  font-size: 0.88rem;
+  background: var(--color-background);
+  user-select: none;
+  overflow-x: hidden;
+}
+.container {
+  display: grid;
+  width: 96%;
+  margin: 0 auto;
+  gap: 1.8rem;
+  grid-template-columns: 14rem auto 23rem;
+}
+a {
+  color: var(--color-dark);
+}
+img {
+  display: block;
+  width: 100%;
+}
+h1 {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 0.83rem;
+}
+h4 {
+  font-size: 0.8rem;
+}
+small {
+  font-size: 0.75rem;
+}
